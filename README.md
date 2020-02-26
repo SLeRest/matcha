@@ -20,5 +20,12 @@ le projet va se diviser en 3 containers: API, DABATASE, WEB
 - faire un script sql d'initialisation de donne
 	- trouver une banque de profil libre (nom prenom genre image)
 
+- Manque de data:
+	Tag d'interet
+	ville ( en france pour commencer)
+	bio
+	job
+
+
 ### WEB
 - tout reste a faire cote front
