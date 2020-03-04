@@ -66,6 +66,8 @@ services:
         environment:
           PGADMIN_DEFAULT_EMAIL: matcha
           PGADMIN_DEFAULT_PASSWORD: secret
+          PGADMIN_LISTEN_PORT: 8080
+          SCRIPT_NAME: /pgadmin
         depends_on:
           - "traefik"
           - "db"
