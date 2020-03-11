@@ -45,8 +45,9 @@ services:
 # DATABASE
 
     db:
-        image: postgres:12.0-alpine
-        container_name: db-matcha
+        build: ./db
+        container_name: db
+        image: db_matcha
         environment:
           - POSTGRES_USER=matcha
           - POSTGRES_PASSWORD=secret
